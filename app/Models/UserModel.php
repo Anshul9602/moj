@@ -63,9 +63,7 @@ class UserModel extends Model
         } else{
             return $user;
         }
-            
-147895
-       
+        
     }
     public function findUserByUserNumber(string $user_number)
     {
